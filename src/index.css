@@ -1,0 +1,122 @@
+body {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+.container_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_about {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10%;
+  color: lightgoldenrodyellow;;
+}
+.blockImage img {
+  display: flex;
+  border-radius: 50%;
+  height: 80vh;
+  margin-top: 15%;
+}
+.hero_title{
+  font-size: 4em;
+  font-weight: 700;
+}
+.hero_subtitle{
+  font-size: 3em;
+  font-weight: 500;
+}
+.hero_description{
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.graph{
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.html {
+  width: 80%;
+  background-color: #d10f0f;
+} 
+.css {
+  width: 70%;
+  background-color: #00cc0a;
+}
+.js {
+  width: 50%;
+  background-color: #e3d519;
+} 
+.react {
+  width: 50%;
+  background-color: #0c0861;
+} 
+.works_block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.works_block h3{
+  color: white;
+  padding: 3%;
+  font-size: 4em;
+  font-weight: 700;
+}
+.works_block img{
+  padding: 2%;
+}
+.works_block p{
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.block1{
+  margin-top: 15%;
+}
+.textContact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.textContact h3{
+  font-size: 3em;
+  font-weight: 700;
+}
+.linkss{
+  margin-top: 5%;
+}
+.linkss a{
+  font-size: 1.5em;
+  text-decoration: none;
+  width: 30%;
+  margin-left: 15%;
+  color: white;
+  font-weight: 700;
+}
+.linkss a:hover{
+  color: black;
+}
+.number_phone{
+margin-left: 40%;
+margin-top: 5%;
+}
+.number_phone h4{
+  font-size: 2em;
+}
+.number_phone p {
+  font-size: 1.5em;
+  color: white;
+}
